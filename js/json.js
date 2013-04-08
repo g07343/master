@@ -31,5 +31,158 @@ var json = {
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
 		"bio":    ["Bio: ", "An unparalleled spellcaster."]
-	}	
+	},
+	"character4": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character5": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character6": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character7": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character8": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character9": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character10": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character11": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character12": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character13": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character14": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character15": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character16": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character17": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character18": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character19": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	},
+	"character20": {
+		"name": ["Name: ", "Killer Kim"],
+		"gender": ["Gender: ", "Female"],
+		"age":    ["Age: ", "34"],
+		"origin": ["From: ", "Jergain-Highlands"],
+		"role":   ["Class: ", "mage"],
+		"level":  ["Level: ", "5"],
+		"bio":    ["Bio: ", "An unparalleled spellcaster."]
+	}
 }
