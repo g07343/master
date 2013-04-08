@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+Name: Matthew Lewis
+Project:  VFW assignment 4
+Term: 1303
+-->
+<html>
+<!--head of the document-->
+	<head>
+		<meta charset="utf -8" />
+		<meta name="description" content="Index Page for VFW APP!  YAAAYY!" />
+		<meta name="robots" content="index, nofollow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="keywords" content="RPG, Full Sail, VFW, Party creator" />
+		<title>Add Party</title>
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	<!--Body of document-->
+	<body>
+	<!--Header to contain "title"-->
+		<header>
+			<hgroup id="addHeader">
+				<h2>Create a New Party Member</h2>
+			</hgroup>
+		</header>
+		<!--fieldset to contain character personal info-->
+			<form id="charInput">
+			<fieldset>
+			<!-- Since legend tag text cannot be formatted using css, use a "<p>" tag to assign it an id and make it editable! -->						<legend></legend>
+			<ul id="errorMsgs"></ul>
+				<p class="inputTitles">Character Personal Info:</p>
+				<ul>
+					<li>
+						<label for="memberName">Party Member Name:</label>
+						<input type="text" id="memberName" value="Name" />
+					</li>
+					<li id="genderRadio">
+						<label for="charGender" id="genderLabel">Gender:</label> 
+						<input type="radio" id="test1" name="gender" value="Male">Male
+						<input type="radio" id="test2" name="gender" value="Female">Female<br>
+					</li>
+					<li>
+						<label for="age">Birthday/Age:</label>
+						<input type="date" id="age"/><br>
+					</li>
+					<li id="origin"><label for="origin">Nationality:</label><br />
+					</li>
+				</ul>
+			</fieldset>
+			<!--New fieldset to hold character statistics-->
+			<fieldset>
+				<legend></legend>
+				<p class="inputTitles">Character Stats:</p>
+				<ul>
+					<li>
+						<label for="class">Character Class:</label>
+							<select id="class">
+								<optgroup label="Melee Classes">
+									<option value="soldier">Soldier</option>
+									<option value="rogue">Rogue</option>
+									<option value="barbarian">Barbarian</option>
+								</optgroup>
+								<optgroup label="Magic Classes">
+									<option value="wizard">Wizard</option>
+									<option value="healer">Healer</option>
+									<option value="mage">Mage</option>
+								</optgroup>
+							</select>
+					</li>
+					<li>
+							<label for="memberLevel">Starting Level (0-10):</label><br> 
+							<input type="range" id="memberLevel" min="1" max="10"><br>
+					</li>
+					<li>
+							<label for="charBio">Character Bio:</label><br>
+							<textarea rows="3" cols="35" id="charBio">Write a brief bio of your character</textarea><br>
+					</li>
+						<label for="hiddenInput"></label>
+						<input type="hidden" id="hiddenInput" value="true">
+				</ul>
+			</fieldset>
+			</form>
+				
+					<!-- <label for="submitBtn"></label> -->
+					<input type="button" id="submitBtn" method="post" value="Add Party Member">
+		<!--Footer section to contain clear party and view party links-->
+		<footer>
+			<a href="additem.html" id="clearParty">Clear Party</a>
+			<a href="#" id="viewParty">View Party</a>
+			<a href="additem.html" id="goBack" style="display: none">Add Another!</a>
+		</footer>
+		<script src="js/json.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>

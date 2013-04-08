@@ -1,0 +1,35 @@
+/*
+Matthew Lewis
+VFW Assignment 4
+Term: 1303
+*/
+
+/* All code below formats (mostly) the index page! */
+#index{text-align: center; margin: 20px; padding: 10px; background: #3B3B3B; color:#F9F9F9; border:1px solid gray;}
+#appTitle{text-align: left; line-height: 40px; font-size: 3em; text-decoration: none; padding: 0 0 0 35px;color: #EA1B1B}
+#r{display: inline; font-size:120px}
+#titleP{display: inline; font-size:95px}
+#g{display: inline; font-size:70px}
+#indexContent{font-size: 2em}
+h3{font-weight: bold; font-size: 1.25em; color: #B2B2B2}
+#itemPage {
+	text-align: center;
+	background-image:url(../img/button-bg.png);
+	display:block;
+	height:100px;
+	width:200px;
+	}
+
+/* All code below formats the additem.html page! */
+h2{line-height: 40px; font-size: 2em; text-decoration: none; position: relative; top: -10px;left: 10px;color: #EA1B1B}
+body{background-color: #3B3B3B}
+fieldset{background-color: #747171}
+#addHeader{font-color: #EA1B1B}
+a{color:#9FD5FF}
+li{color: #FFFFFF; padding: 5px 0 5px 0}
+fieldset{margin: 10px 0 0 0}
+.inputTitles{color: #9FD5FF; font-size: 1.4em; margin: 5px 0 0 0}
+.errors{font-weight:bold}
+/* div{background: #747171; margin: 10px 0 10px 0; border:1px solid #B2B2B2} */
+a:hover{color: #519C8B}
+a:active{color: white}
