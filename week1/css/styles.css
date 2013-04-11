@@ -7,15 +7,17 @@ Term: 1303
 /* All code below formats (mostly) the index page! */
 #index{text-align: center; background: #3B3B3B; color:#F9F9F9; margin-left: 0px; margin-right: 0px;}
 #title{text-align:center; margin-top: -8px;  font-size: 1.2em; background-color: #7C7C7C; font-weight:bold; color: white;}
+h1{padding-top:20px;}
 #feature{background-image:url(../img/feature-bg.png); margin-top: -25px; background-size: 100%; background-repeat:no-repeat; background-size:cover;}
 #cta{font-weight:bolder; text-align:left; font-size: 1.6em; padding-top: 25px;}
 h3{font-weight: bold; font-size: 1.25em; color: #B2B2B2}
 #search{margin-top: -15px;}
 #browseTitle{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 #searchBox{margin-bottom:-20px;}
-.browseCategory{background-image:url(../img/category-bg.png);
-	padding: 10px;
-	margin: 0px 10px -5px 10px;
+
+#browseName{background-image:url(../img/categoryName.png);
+	padding: 20px;
+	margin-top: -10px;
 	background-position:center center;
 	background-repeat:no-repeat;
 	display:block;
@@ -25,6 +27,55 @@ h3{font-weight: bold; font-size: 1.25em; color: #B2B2B2}
 	font-weight: bold;
 	background-size:contain;
 }
+#browseGender{background-image:url(../img/categoryGender.png);
+	padding: 20px;
+	margin-top: 1px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+#browseClass{background-image:url(../img/categoryClass.png);
+	padding: 20px;
+	margin-top: 1px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+#browseNationality{background-image:url(../img/categoryNationality.png);
+	padding: 20px;
+	margin-top: 1px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+#browseLevel{background-image:url(../img/categoryLevel.png);
+	padding: 20px;
+	margin-top: 1px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+
 #itemPage {
 	margin-left: 150px;
 	padding-bottom: 20px;
