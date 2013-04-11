@@ -8,10 +8,10 @@ Term: 1303
 #index{text-align: center; background: #3B3B3B; color:#F9F9F9; margin-left: 0px; margin-right: 0px;}
 #title{text-align:center; margin-top: -8px; padding-bottom: 5px; font-size: 1.2em; background-color: #7C7C7C; font-weight:bold; color: white;}
 h1{padding: 20px,0,-10,0; text-align: left;}
-#feature{background-image:url(../img/feature-bg.png); margin-top: -25px; background-repeat:no-repeat; background-size:cover;}
+#feature{background-image:url(../img/feature-bg.png); margin-top: -25px; margin-bottom: -15px; background-repeat:no-repeat; background-size:cover;}
 h3{font-weight: bold; font-size: 1.25em; color: #B2B2B2}
 #search{margin-top: -15px;}
-#browseTitle{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
+h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 #searchBox{margin-bottom:-20px;}
 
 #browseName{background-image:url(../img/categoryName.png);
@@ -77,7 +77,8 @@ h3{font-weight: bold; font-size: 1.25em; color: #B2B2B2}
 
 #itemPage {
 	margin-left: 150px;
-	padding-bottom: 20px;
+	margin-bottom: -10px;
+	padding-bottom: 10px;
 	background-repeat:no-repeat;
 	background-image:url(../img/button-bg.png);
 	display:block;
