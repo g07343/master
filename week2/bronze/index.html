@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 Name: Matthew Lewis
-Project:  MIU assignment 1
+Project:  MIU assignment 2
 Term: 1304
 -->
 <html>
@@ -12,13 +12,177 @@ Term: 1304
 		<meta name="robots" content="index, nofollow" />
 		<meta name="viewport" content="user-scalable=no, width=device-width" />
 		<meta name="keywords" content="RPG, Full Sail, MIU, Party creator" />
-		<title>MIU Project 1</title>
-		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="cleartype" content="on">
+		
+		<title>MIU Project 2</title>
+		<!-- <link href="css/styles.css" rel="stylesheet" type="text/css" /> -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<!-- Include the modernizr javascript file as well! -->
+		<script src="js/libs/modernizr.custom.min.js"></script>
 	</head>
 	<!--Body which will contain our main app title as well as the call to action and link button-->
-	<body id="index">
-		<p id="title">RPG Party Creator</p>
-		<div id="feature">
+	
+	<body>
+		<div data-role="page" id="home">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>RPG Party Creator</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<div id="feature">
+					<p>
+						<h1>Create an RPG character!</h1>
+						<p><a id ="itemPage" data-ajax=”false” href="additem.html" ></a></p>
+					</p>
+				</div>
+			
+				<div>
+					<p><h5>Already created some characters?</h5><a href="#party" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">View Party</a></p>
+				</div>
+				<div id="browse">
+					<h3>Browse Characters By:</h3>
+					<div data-role="collapsible-set" data-inset="true" data-filter="true">
+						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+							<h3>Name</h3>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
+						</div>
+						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+							<h3>Gender</h3>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
+						</div>
+						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+							<h3>Class</h3>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
+						</div>
+						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+							<h3>Nationality</h3>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
+						</div>
+						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+							<h3>Level</h3>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
+							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="party" data-add-back-btn="true" data-filter="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Party Members (All):</h1>
+			</div>
+			<div data-role="content" data-theme="a" data-filter="true">
+				<div data-role="collapsible" data-collapsed="true">
+					<h3><img src="img/Black-Mountains.png" />Character 1</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3><img src="img/Durkshire.png" />Character 2</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3><img src="img/Jergain-Highlands.png" />Character 3</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3><img src="img/Oc'tyre-Desert.png" />Character 4</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3><img src="img/Black-Mountains.png" />Character 5</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="ui-btn-active">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="charpage" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Party Member Details:</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>This is a dynamically loaded character</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="about" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Party Member Details:</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<p>About Page</p>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info" class="ui-btn-active">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--
+<div id="feature">
 			<p>
 				<h1 style="padding-top: 10px; margin: 0px">Create an RPG character!</h1>
 			</p>
@@ -41,6 +205,11 @@ Term: 1304
 			<a id="browseLevel" href="additem.html"></a>
 			</p>
 		</div>
+-->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
 	</body>
 </html>
 		

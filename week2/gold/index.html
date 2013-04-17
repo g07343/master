@@ -35,42 +35,32 @@ Term: 1304
 				<div id="feature">
 					<p>
 						<h1>Create an RPG character!</h1>
-						<p><a id ="itemPage" href="additem.html"></a></p>
+						<p><a id ="itemPage"  href="additem.html" data-ajax=”false”></a></p>
 					</p>
 				</div>
 			
 				<div>
-					<p>Already created some characters?<a href="#party" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">View Party</a></p>
+					<p><h5>Already created some characters?</h5><a href="#party" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">View Party</a></p>
 				</div>
 				<div id="browse">
-					<h3>Browse Characters By:</h3>
-					<div data-role="collapsible-set" data-inset="true" data-filter="true">
-						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
-							<h3>Name</h3>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
-						</div>
-						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
-							<h3>Gender</h3>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
-						</div>
-						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
-							<h3>Class</h3>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
-						</div>
-						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
-							<h3>Nationality</h3>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
-						</div>
-						<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
-							<h3>Level</h3>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 1</a></p>
-							<p><a href="#charpage" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">Example Character 2</a></p>
-						</div>
-					</div>
+					<ul data-role="listview" data-inset="true" data-filter="true">
+						<li data-role="list-divider">Browse your Characters By:</li>
+						<li>
+							<a href="#charpage">Name</a>
+						</li>
+						<li>
+							<a href="#charpage">Gender</a>
+						</li>
+						<li>
+							<a href="#charpage">Role</a>
+						</li>
+						<li>
+							<a href="#charpage">Nationality</a>
+						</li>
+						<li>
+							<a href="#charpage">Level</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div data-role="footer" data-position="fixed" data-id="static">
@@ -78,6 +68,7 @@ Term: 1304
 					<ul>
 						<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
 						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
 					</ul>
 				</div>
 			</div>
@@ -87,18 +78,111 @@ Term: 1304
 				<h1>Party Members (All):</h1>
 			</div>
 			<div data-role="content" data-theme="a">
-				<p>this is temporary text</p>
-			</div>
+				<ul data-role="listview" data-inset="true" data-filter="true" data-theme="c">
+					<li data-role="list-divider">Your current Party:</li>
+					<li><img src="img/Black-Mountains.png" />
+					Character 1
+					<p>Level: NUMBER, CLASS</p>
+					</li>
+					<li><img src="img/Jergain-Highlands.png" />
+					Character 2
+					<p>Level: NUMBER, CLASS</p>
+					</li>
+					<li><img src="img/Oc'tyre-Desert.png" />
+					Character 3
+					<p>Level: NUMBER, CLASS</p>
+					</li>
+					<li><img src="img/Durkshire.png" />
+					Character 4
+					<p>Level: NUMBER, CLASS</p>
+					</li>
+				</ul>
+            </div>
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
 						<li><a href="#home" data-icon="home">Home</a></li>
 						<li><a href="#party" data-icon="arrow-r" class="ui-btn-active">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
+		<div data-role="page" id="charpage" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Party Member Details:</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Dynamically loaded character</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Dynamically loaded character</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Dynamically loaded character</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
 
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="about" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>About</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<ul data-role="listview" data-inset="true" data-filter="true">
+						<li data-role="list-divider">Browse your Characters By:</li>
+						<li>
+							<a href="#author">Author Info</a>
+						</li>
+						<li>
+							<a href="#">Bronze App</a>
+						</li>
+						<li>
+							<a href="#">Gold gh-pages</a>
+						</li>
+						<li>
+							<a href="#">Bronze gh-pages</a>
+						</li>
+						<li>
+							<a href="#">GitHub Repository</a>
+						</li>
+					</ul>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info" class="ui-btn-active">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 		<!--
 <div id="feature">
 			<p>
