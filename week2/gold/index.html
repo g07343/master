@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 Name: Matthew Lewis
-Project:  MIU assignment 1
+Project:  MIU assignment 2
 Term: 1304
 -->
 <html>
@@ -12,13 +12,76 @@ Term: 1304
 		<meta name="robots" content="index, nofollow" />
 		<meta name="viewport" content="user-scalable=no, width=device-width" />
 		<meta name="keywords" content="RPG, Full Sail, MIU, Party creator" />
-		<title>MIU Project 1</title>
-		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="cleartype" content="on">
+		
+		<title>MIU Project 2</title>
+		<!-- <link href="css/styles.css" rel="stylesheet" type="text/css" /> -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<!-- Include the modernizr javascript file as well! -->
+		<script src="js/libs/modernizr.custom.min.js"></script>
 	</head>
 	<!--Body which will contain our main app title as well as the call to action and link button-->
-	<body id="index">
-		<p id="title">RPG Party Creator</p>
-		<div id="feature">
+	
+	<body>
+		<div data-role="page" id="home">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>RPG Party Creator</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<div id="feature">
+					<p>
+						<h1>Create an RPG character!</h1>
+						<a id ="itemPage" href="additem.html"></a>
+					</p>
+				<div>
+			</div>
+			<div id="search" data-role="content" data-theme="a">
+				<h3>Browse By:</h3>
+				<div data-role="collapsible-set" data-inset="true" data-filter="true">
+					<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+						<h3>Name</h3>
+						<p>Item One</p>
+						<p>Item Two</p>
+					</div>
+					<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+						<h3>Gender</h3>
+						<p>Item One</p>
+						<p>Item Two</p>
+					</div>
+					<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+						<h3>Class</h3>
+						<p>Item One</p>
+						<p>Item Two</p>
+					</div>
+					<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+						<h3>Nationality</h3>
+						<p>Item One</p>
+						<p>Item Two</p>
+					</div>
+					<div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="a">
+						<h3>Level</h3>
+						<p>Item One</p>
+						<p>Item Two</p>
+					</div>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#favorite" data-icon="star">Favorite</a></li>
+					<li><a href="#page2" data-icon="refresh">Page 2</a></li>
+					<li><a href="#search" data-icon="search">Search</a></li>
+					<li><a href="#accordion" data-icon="search">Accordion</a></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		<!--
+<div id="feature">
 			<p>
 				<h1 style="padding-top: 10px; margin: 0px">Create an RPG character!</h1>
 			</p>
@@ -41,6 +104,11 @@ Term: 1304
 			<a id="browseLevel" href="additem.html"></a>
 			</p>
 		</div>
+-->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
 	</body>
 </html>
 		
