@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", function(){
 		function createSelect(){
 			var retrieveTags = document.getElementsByTagName("form");
 			//console.log(retrieveTags);
-				var retrieveSelect   = get("origin")
+				var retrieveSelect   = get("origin");
 				createSelect = document.createElement('select');
 				createSelect.setAttribute("id", "nationality");
 			for(var i=0, n=nationalities.length; i<n; i++) {
