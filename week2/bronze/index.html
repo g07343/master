@@ -26,7 +26,7 @@ Term: 1304
 	</head>
 	<!--Body which will contain our main app title as well as the call to action and link button-->
 	
-	<body>
+	<body id="main">
 		<div data-role="page" id="home">
 			<div data-role="header" data-position="fixed" data-theme="a">
 				<h1>Bronze App</h1>
@@ -34,7 +34,7 @@ Term: 1304
 			<div data-role="content" data-theme="a">
 				<div id="feature">
 					<p>
-						<h1>Create an RPG character!</h1>
+						<h1 id="titleText">Create an RPG character!</h1>
 						<p><a id ="itemPage" data-ajax=”false” href="additem.html" ></a></p>
 					</p>
 				</div>
@@ -88,7 +88,7 @@ Term: 1304
 			<div data-role="header" data-position="fixed" data-theme="a">
 				<h1>Party (All):</h1>
 			</div>
-			<div data-role="content" data-theme="a" data-filter="true">
+			<div data-role="content" id="content" data-theme="a" data-filter="true">
 				<div class="ui-grid-b" data-inset="true">
 					<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/Durkshire.png" />Character 1</div></div>
 					<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/Jergain-Highlands.png" />Character 2</div></div>
