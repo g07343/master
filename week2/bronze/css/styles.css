@@ -13,6 +13,7 @@ h3{font-weight: bold; font-size: 1.25em; color: #B2B2B2}
 #search{margin-top: -15px;}
 h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 #searchBox{margin-bottom:-20px;}
+#party .ui-grid-b div{text-align:center;}
 
 #browseName{background-image:url(../img/categoryName.png);
 	padding: 20px;
@@ -76,7 +77,7 @@ h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 }
 
 #itemPage {
-	margin-left: 150px;
+	margin-left: 130px;
 	margin-bottom: -10px;
 	padding-bottom: 10px;
 	background-repeat:no-repeat;
