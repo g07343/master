@@ -1,0 +1,103 @@
+/*
+Matthew Lewis
+MIU Assignment 1
+Term: 1303
+*/
+
+/* All code below formats (mostly) the index page! */
+#index{text-align: center; background: #3B3B3B; color:#F9F9F9; margin-left: 0px; margin-right: 0px;}
+#title{text-align:center; margin-top: -8px; padding-bottom: 5px; font-size: 1.2em; background-color: #7C7C7C; font-weight:bold; color: white;}
+h1{padding: 20px,0,-10,0; text-align: left;}
+#feature{background-image:url(../img/feature-bg.png); margin-top: -25px; margin-bottom: -15px; background-repeat:no-repeat; background-size: 425px;}
+h3{font-weight: bold; font-size: 1.25em;}
+#search{margin-top: 0px;}
+h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
+#searchBox{margin-bottom:-20px;}
+#party div h3{}
+#titleText{color:#7073D6;}
+
+#browseName{background-image:url(../img/categoryName.png);
+	padding: 20px;
+	margin-top: -10px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+#browseGender{background-image:url(../img/categoryGender.png);
+	padding: 20px;
+	margin-top: 1px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+#browseClass{background-image:url(../img/categoryClass.png);
+	padding: 20px;
+	margin-top: 1px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+#browseNationality{background-image:url(../img/categoryNationality.png);
+	padding: 20px;
+	margin-top: 1px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+#browseLevel{background-image:url(../img/categoryLevel.png);
+	padding: 20px;
+	margin-top: 1px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	color: black;
+	font-size: 24px;
+	text-align:left;
+	font-weight: bold;
+	background-size:contain;
+}
+
+#itemPage {
+	margin-left: 120px;
+	margin-bottom: -10px;
+	padding-bottom: 10px;
+	background-repeat:no-repeat;
+	background-image:url(../img/button-bg.png);
+	display:block;
+	height:50px;
+	width:150px;
+	}
+
+/* All code below formats the additem.html page! */
+h2{line-height: 40px; font-size: 2em; text-decoration: none; position: relative; top: -10px;left: 10px;color: #EA1B1B}
+body{background-color: #3B3B3B}
+fieldset{background-color: #747171}
+#addHeader{font-color: #EA1B1B}
+a{color:#9FD5FF}
+li{color: #FFFFFF; padding: 5px 0 5px 0}
+fieldset{margin: 10px 0 0 0}
+.inputTitles{color: #9FD5FF; font-size: 1.4em; margin: 5px 0 0 0}
+.errors{font-weight:bold}
+/* div{background: #747171; margin: 10px 0 10px 0; border:1px solid #B2B2B2} */
+a:hover{color: #519C8B}
+a:active{color: white}
