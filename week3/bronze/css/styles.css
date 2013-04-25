@@ -16,6 +16,8 @@ h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 #party .ui-grid-b div{text-align:center; background-color:#343434;}
 #content{background-color:#343434;}
 #titleText{color:#7073D6;}
+#hint{color: #000000; margin-top:0px;}
+
 #browseName{background-image:url(../img/categoryName.png);
 	padding: 20px;
 	margin-top: -10px;

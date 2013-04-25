@@ -20,8 +20,9 @@ $("#home").on("pageinit", function(){
 	 
 	 rbform.validate({
 		 invalidHandler: function(form, validator){
-			 errorsLink.click();
 			 var html = '';
+			 errorsLink.click();
+			 
 			 for(var key in validator.submitted){
 			 console.log(this);
 				var label = $("label[for^='" + key +"']").not("[generated]");

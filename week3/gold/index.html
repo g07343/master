@@ -230,6 +230,7 @@ Term: 1304
 						<!-- Name input -->
 						<label for="name">*Party Member Name:</label>
 						<input type="text" placeholder="Name your character!"name="name" id="name" class="required"/>
+						<h6 id='inputHint'>name can contain any combination of letters, numbers, or symbols</h6>
 					</div>
 					<div data-role="fieldcontain">
 						<!-- gender input -->
@@ -244,7 +245,8 @@ Term: 1304
 					<div data-role="fieldcontain">
 					<!-- age input -->
 						<label for="age">*Age (In years):</label>
-						<input type="text" name="age" placeholder="0-99" id="age" class="required number" />   
+						<input type="text" name="age" placeholder="0-99" id="age" class="required number" />  
+						<h6 id='inputHint'>example: 40, whole numbers only</h6>
 				    </div>
 				    <div>
 				    <p>*Nationality:</p>
@@ -284,6 +286,7 @@ Term: 1304
 					<div data-role="fieldcontain">
 						<label for="level">Character starting level (0-10):</label>
 						<input type="range" name="level" id="level" value="5" min="0" max="10"/>
+						<h6 id='inputHint2'>starting level relates to how strong your character is</h6>
 					</div>
 					<div data-role="fieldcontain">
 						<label for="bio">Brief character bio or notes:</label>

@@ -19,6 +19,8 @@ h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 label.error{display:block; margin:10px 0; color:#cc0000;}
 #errorslink{display:none;}
 #hidden{display:none;}
+#inputHint{color: #A9A9A9; margin-top: 0px; size: 0.1em;}
+#inputHint2{color: #A9A9A9; size: 0.1em;}
 
 #browseName{background-image:url(../img/categoryName.png);
 	padding: 20px;
