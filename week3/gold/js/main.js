@@ -1,54 +1,58 @@
-// write your javascript in here
+/*
+Matthew Lewis
+MIU Week 3 Assignment
+Term: 1304
+*/
 
-var parseForm = function(data){
-	
-	
-};
 
-function get(id) {
-		var theElement = document.getElementById(id);
-		return theElement;
-		}
 
-$("#home").on("pageinit", function(){
-	
-	
-	 var rbform = $("#addForm"),
-	 	errorsLink = $("#errorslink")
+$('#home').on('pageinit', function(){
+	//code needed for home page goes here
+});	
+		
+$('#add').on('pageinit', function(){
+
+		errorsLink = $("#errorslink")
 	 	homeLink   = $("#homeLink")
-	 ;
-	 
-	 rbform.validate({
-		 invalidHandler: function(form, validator){
-			 var html = '';
-			 errorsLink.click();
+		
+		var myForm = $('#addForm');
+		    myForm.validate({
+			invalidHandler: function(form, validator) {
+			
+			var html = '';
+			errorsLink.click();
 			 
 			 for(var key in validator.submitted){
-			 console.log(this);
-				var label = $("label[for^='" + key +"']").not("[generated]");
+				 var label = $("label[for^='" + key +"']").not("[generated]");
 				 var legend = label.closest('fieldset').find('.ui-controlgroup-label');
 				 //this code checks for legends (used for radios and checkboxes) and then checks for labels (used for text field inputs)
 				 var fieldName = legend.length ? legend.text() : label.text();
 				 html += '<li>' + fieldName + '</li>';
 			 };
 			 $("#errorspopup ul").html(html);
-		 },
-		 submitHandler: function(){
-			 var data = rbform.serializeArray();
-			 storeData(data);
-			 alert("Party Member Saved! Reloading the page for you :)");
-			 autofillData();
+		 
+			},
 			
-		 }
-	 });
+			submitHandler: function() {
+				var data = myForm.serializeArray();
+				storeData(data);
+				alert("Party Member Saved! Reloading the page for you :)");
+				autofillData();
+		}
+	});
+	
+	//any other code needed for addItem page goes here
 	
 });
 
-
-
+//The functions below can go inside or outside the pageinit function for the page in which it is needed.
 
 var autofillData = function (){
-	 $("#reset").click();
+	  $("#reset").click();
+};
+
+var getData = function(){
+
 };
 
 var storeData = function(data){
@@ -67,12 +71,6 @@ var storeData = function(data){
 	
 	console.log(character);
 	localStorage.setItem(id, JSON.stringify(character));
-};
-
-var getData = function(){
-	
-	
-	
 }; 
 
 var	deleteItem = function (){
@@ -83,4 +81,7 @@ var clearLocal = function(){
 
 };
 
-var rbform;
+function get(id) {
+		var theElement = document.getElementById(id);
+		return theElement;
+		}
