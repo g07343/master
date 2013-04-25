@@ -8,7 +8,7 @@ var json = {
 	"character1": {
 		"name": ["Name: ", "Tim the Terrible"],
 		"gender": ["Gender: ", "Male"],
-		"age":    ["Age: ", "42"],
+		"age":    ["Age: ", "2000-01-11"],
 		"origin": ["From: ", "Black-Mountains"],
 		"role":   ["Class: ", "barbarian"],
 		"level":  ["Level: ", "9"],
@@ -17,7 +17,7 @@ var json = {
 	"character2": {
 		"name": ["Name: ", "Dan the Dangerous"],
 		"gender": ["Gender: ", "Male"],
-		"age":    ["Age: ", "37"],
+		"age":    ["Age: ", "1988-03-23"],
 		"origin": ["From: ", "Oc'tyre-Desert"],
 		"role":   ["Class: ", "rogue"],
 		"level":  ["Level: ", "7"],
@@ -26,7 +26,7 @@ var json = {
 	"character3": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -35,7 +35,7 @@ var json = {
 	"character4": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -44,7 +44,7 @@ var json = {
 	"character5": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -53,7 +53,7 @@ var json = {
 	"character6": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -62,7 +62,7 @@ var json = {
 	"character7": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -71,7 +71,7 @@ var json = {
 	"character8": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -80,7 +80,7 @@ var json = {
 	"character9": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -89,7 +89,7 @@ var json = {
 	"character10": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -98,7 +98,7 @@ var json = {
 	"character11": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -107,7 +107,7 @@ var json = {
 	"character12": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -116,7 +116,7 @@ var json = {
 	"character13": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -125,7 +125,7 @@ var json = {
 	"character14": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -134,7 +134,7 @@ var json = {
 	"character15": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -143,7 +143,7 @@ var json = {
 	"character16": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -152,7 +152,7 @@ var json = {
 	"character17": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -161,7 +161,7 @@ var json = {
 	"character18": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -170,7 +170,7 @@ var json = {
 	"character19": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
@@ -179,7 +179,7 @@ var json = {
 	"character20": {
 		"name": ["Name: ", "Killer Kim"],
 		"gender": ["Gender: ", "Female"],
-		"age":    ["Age: ", "34"],
+		"age":    ["Age: ", "1976-02-23"],
 		"origin": ["From: ", "Jergain-Highlands"],
 		"role":   ["Class: ", "mage"],
 		"level":  ["Level: ", "5"],
