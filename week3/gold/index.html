@@ -221,154 +221,105 @@ Term: 1304
 				<h1>Add a Member:</h1>
 			</div>
 			<div data-role="content" data-theme="a">
-				<div data-role="fieldcontain">
-				<h2>Character Personal Info:</h2>
-					<!-- Name input -->
-					<label for="name">Party Member Name:</label>
-					<input type="text" name="name" id="name" class="required"/>
-				</div>
-				<div data-role="fieldcontain">
-					<!-- gender input -->
-					<p>Gender:</p>
-					<fieldset data-role="controlgroup" data-type="horizontal" style="display: inline">
-						<input type="radio" value="male" name="radio" id="option1" class="required"/>
-						<label for="option1">Male</label>
-						<input type="radio" value="female" name="radio" id="option2" class="required"/>
-						<label for="option2">Female</label>
-					</fieldset>
-				</div>
-				<div data-role="fieldcontain">
-				<!-- age input -->
-					<p>Date of Birth:</p>
-			        <fieldset data-role="controlgroup" data-type="horizontal" style="display: inline">
-			            <label for="ageMonth">Month</label>
-			            <select name="ageMonth" id="ageMonth" data-native-menu="false">
-			                <option data-placeholder="true">Month</option>
-			                <option value="jan">January</option>
-			                <option value="dec">December</option>
-			                <option value="feb">February</option>
-			                <option value="mar">March</option>
-			                <option value="apr">April</option>
-			                <option value="may">May</option>
-			                <option value="jun">June</option>
-			                <option value="jul">July</option>
-			                <option value="aug">August</option>
-			                <option value="sep">September</option>
-			                <option value="oct">October</option>
-			                <option value="nov">November</option>
-			                <option value="dec">December</option>
-			            </select>
-			    
-			            <label for="ageDay">Day</label>
-			            <select name="ageDay" id="ageDay" data-native-menu="false">
-			                <option data-placeholder="true">Day</option>
-			                <option value="1">1</option>
-			                <option value="2">2</option>
-			                <option value="3">3</option>
-			                <option value="4">4</option>
-			                <option value="5">5</option>
-			                <option value="6">6</option>
-			                <option value="7">7</option>
-			            </select>
-			    
-			            <label for="ageYear">Year</label>
-			            <select name="ageYear" id="ageYear" data-native-menu="false">
-			                <option data-placeholder="true">Year</option>
-			                <option value="2013">2013</option>
-			                <option value="2012">2012</option>
-			                <option value="2011">2011</option>
-			                <option value="2010">2010</option>
-			                <option value="2009">2009</option>
-			                <option value="2008">2008</option>
-			                <option value="2007">2007</option>
-			                <option value="2006">2006</option>
-			                <option value="2005">2005</option>
-			                <option value="2004">2004</option>
-			                <option value="2003">2003</option>
-			                <option value="2002">2002</option>
-			                <option value="2001">2001</option>
-			                <option value="2000">2000</option>
-			                <option value="1999">1999</option>
-			                <option value="1998">1998</option>
-			                <option value="1997">1997</option>
-			                <option value="1996">1996</option>
-			                <option value="1995">1995</option>
-			                <option value="1994">1994</option>
-			                <option value="1993">1993</option>
-			                <option value="1992">1992</option>
-			                <option value="1991">1991</option>
-			                <option value="1990">1990</option>
-			                <option value="1989">1989</option>
-			                <option value="1988">1988</option>
-			                <option value="1987">1987</option>
-			                <option value="1986">1986</option>
-			                <option value="1985">1985</option>
-			                <option value="1984">1984</option>
-			                <option value="1983">1983</option>
-			                <option value="1982">1982</option>
-			                <option value="1981">1981</option>
-			                <option value="1980">1980</option>
-			            </select>
-			        </fieldset>
-			    </div>
-			    <div>
-			    <p>Nationality:</p>
-			    <!-- Nationality Input -->
-			    <fieldset data-role="controlgroup" data-type="horizontal" style="display: inline">
-			    	<label for="nationality">Nationality:</label>
-			            <select name="nationality" id="nationality" data-native-menu="false" class="required">
-			                <option data-placeholder="true">Where is your character from?</option>
-			                <option value="Dirkshire">Dirkshire</option>
-			                <option value="Black-Mountains">Black-Mountains</option>
-			                <option value="Jergain-Highlands">Jergain-Highlands</option>
-			                <option value="Oc'tyre-Desert">Oc'tyre-Desert</option>
-			            </select>
-			        </fieldset>
-			    </div>
-			    <div data-role="fieldcontain">
-				<h2>Character Stats:</h2>
-					<!-- Class Input -->
-					<p>What class is your character?</p>
-					<fieldset data-role="controlgroup" data-type="horizontal" style="display: inline">
-			    	<label for="class">Class:</label>
-			            <select name="class" id="class" data-native-menu="false" class="required">
-			                <option data-placeholder="true">Choose a class...</option>
-			                <optgroup label="Melee Classes">
-			                	<option value="Soldier">Soldier</option>
-			                	<option value="Rogue">Rogue</option>
-			                	<option value="Barbarian">Barbarian</option>
-			                </optgroup>
-			                <optgroup label="Magic Classes">
-			                	<option value="Wizard">Wizard</option>
-			                	<option value="Healer">Healer</option>
-			                	<option value="Mage">Mage</option>
-			                </optgroup>
-			            </select>
-			        </fieldset>
-				</div> 
-				<div data-role="fieldcontain">
-					<label for="level">Character starting level (0-10):</label>
-					<input type="range" name="level" id="level" value="5" min="0" max="10"/>
-				</div>
-				<div data-role="fieldcontain">
-					<label for="bio">Brief character bio or notes:</label>
-					<textarea name="bio" id="bio" default="test"></textarea>
-				</div>
-				<div data-role="fieldcontain">
-					
-					<input type="submit" value="Submit" data-theme="b" style="display: inline"/>
-					<a href="#home">Cancel</a>
-				</div>
+				<form action="" method="post" id="addForm">
+					<div data-role="fieldcontain">
+						<h2>Character Personal Info:</h2>
+					</div>
+					<div>
+						<h6>* fields are required</h6>
+						<!-- Name input -->
+						<label for="name">*Party Member Name:</label>
+						<input type="text" placeholder="Name your character!"name="name" id="name" class="required"/>
+					</div>
+					<div data-role="fieldcontain">
+						<!-- gender input -->
+						<fieldset data-role="controlgroup" id="Gender" name="Gender">
+							<label for="radio">*Gender:</label>
+								<input type="radio" value="male" name="radio" id="Male" class="required"/>
+								<label for="Male">Male</label>
+								<input type="radio" value="female" name="radio" id="Female"/>
+								<label for="Female">Female</label>
+						</fieldset>
+					</div>
+					<div data-role="fieldcontain">
+					<!-- age input -->
+						<label for="age">*Age (In years):</label>
+						<input type="text" name="age" placeholder="0-99" id="age" class="required number" />   
+				    </div>
+				    <div>
+				    <p>*Nationality:</p>
+				    <!-- Nationality Input -->
+				    <fieldset data-role="controlgroup" data-type="horizontal" style="display: inline">
+				    	<label for="nationality">*Nationality:</label>
+				            <select name="nationality" id="nationality" class="required" data-native-menu="false">
+				                <option data-placeholder="true" value>Where is your character from?</option>
+				                <option value="Dirkshire">Dirkshire</option>
+				                <option value="Black-Mountains">Black-Mountains</option>
+				                <option value="Jergain-Highlands">Jergain-Highlands</option>
+				                <option value="Oc'tyre-Desert">Oc'tyre-Desert</option>
+				            </select>
+				        </fieldset>
+				    </div>
+				    <div data-role="fieldcontain">
+					<h2>Character Stats:</h2>
+						<!-- Class Input -->
+						<p>*What class is your character?</p>
+						<fieldset data-role="controlgroup" data-type="horizontal" class="required" style="display: inline">
+				    	<label for="class">*Class:</label>
+				            <select name="class" id="class" data-native-menu="false" class="required">
+				                <option data-placeholder="true" value>Choose a class...</option>
+				                <optgroup label="Melee Classes">
+				                	<option value="Soldier">Soldier</option>
+				                	<option value="Rogue">Rogue</option>
+				                	<option value="Barbarian">Barbarian</option>
+				                </optgroup>
+				                <optgroup label="Magic Classes">
+				                	<option value="Wizard">Wizard</option>
+				                	<option value="Healer">Healer</option>
+				                	<option value="Mage">Mage</option>
+				                </optgroup>
+				            </select>
+				        </fieldset>
+					</div> 
+					<div data-role="fieldcontain">
+						<label for="level">Character starting level (0-10):</label>
+						<input type="range" name="level" id="level" value="5" min="0" max="10"/>
+					</div>
+					<div data-role="fieldcontain">
+						<label for="bio">Brief character bio or notes:</label>
+						<textarea name="bio" id="bio" placeholder="Want to write some backstory?  Maybe some notes?"></textarea>
+					</div>
+					<div data-role="fieldcontain">
+						
+						<input type="submit" value="Create Member!" data-theme="b" id="charSubmit" data-inline="true"/>
+						
+						<a id="cancel" href="#home" data-inline="true">Cancel</a>
+					</div>
+					<div id="hidden">
+						<input type="reset" value="Reset" data-theme="a" style="display: none" id="reset"/>
+					</div>
+					<a href="#errorspopup" id="errorslink" data-rel="dialog">Open Errors</a>
+				</form>
             </div>
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#home" id="homeLink" data-icon="home">Home</a></li>
 						<li><a href="#party" data-icon="arrow-r">Party</a></li>
 						<li><a href="#about" data-icon="info">About</a></li>
 						<li><a href="#add" data-icon="plus" class="ui-btn-active">Add Character</a></li>
 					</ul>
 				</div>
+			</div>
+		</div>
+		<div data-role="dialog" id="errorspopup">
+			<div data-role="header" data-position="fixed">
+				<h1>Missing Fields</h1>
+			</div>
+			<div data-role="content">
+				<ul>
+					<li>popup message content</li>
+				</ul>
 			</div>
 		</div>
 		<!--
@@ -398,6 +349,9 @@ Term: 1304
 -->
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script src="js/libs/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- <script type="text/javascript" src="js/Sample-main.js"></script> -->
 	</body>
 </html>
 		
