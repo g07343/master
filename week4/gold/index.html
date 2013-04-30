@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!--
+Name: Matthew Lewis
+Project:  MIU assignment 2
+Term: 1304
+-->
+<html>
+<!--Head of the document, which contains meta data as well as the page title-->
+	<head>
+		<meta charset="utf -8" />
+		<meta name="description" content="Index Page for MIU APP!  YAAAYY!" />
+		<meta name="robots" content="index, nofollow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="keywords" content="RPG, Full Sail, MIU, Party creator" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="cleartype" content="on">
+		
+		<title>MIU Project 2</title>
+		<!-- <link href="css/styles.css" rel="stylesheet" type="text/css" /> -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<!-- Include the modernizr javascript file as well! -->
+		<script src="js/libs/modernizr.custom.min.js"></script>
+	</head>
+	<!--Body which will contain our main app title as well as the call to action and link button-->
+	
+	<body>
+		<div data-role="page" id="home">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Gold App</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<div id="feature">
+					<p>
+						<h1 id="titleText">Create an RPG character!</h1>
+						<p><a id ="itemPage"  href="#add" data-ajax="false"></a></p>
+					</p>
+				</div>
+			
+				<div>
+					<p><h5>Already created some characters?</h5><a href="#party" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">View Party</a></p>
+				</div>
+				<div id="browse">
+					<ul data-role="listview" data-inset="true" data-filter="true">
+						<li data-role="list-divider">Browse your Characters By:</li>
+						<li>
+							<a href="#charpage">Name</a>
+						</li>
+						<li>
+							<a href="#charpage">Gender</a>
+						</li>
+						<li>
+							<a href="#charpage">Role</a>
+						</li>
+						<li>
+							<a href="#charpage">Nationality</a>
+						</li>
+						<li>
+							<a href="#charpage">Level</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+						<li><a href="#add" data-icon="plus">Add Character</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="party" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Party Members (All):</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<ul data-role="listview" data-inset="true" data-filter="true" data-theme="c">
+					<li data-role="list-divider">Your current Party:</li>
+					<li><img src="img/Black-Mountains.png" />
+					Character 1
+					<p>Level: NUMBER, CLASS</p>
+					</li>
+					<li><img src="img/Jergain-Highlands.png" />
+					Character 2
+					<p>Level: NUMBER, CLASS</p>
+					</li>
+					<li><img src="img/Oc'tyre-Desert.png" />
+					Character 3
+					<p>Level: NUMBER, CLASS</p>
+					</li>
+					<li><img src="img/Durkshire.png" />
+					Character 4
+					<p>Level: NUMBER, CLASS</p>
+					</li>
+				</ul>
+            </div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="ui-btn-active">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+						<li><a href="#add" data-icon="plus">Add Character</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="charpage" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Party Member Details:</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Dynamically loaded character</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Dynamically loaded character</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Dynamically loaded character</h3>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+					<p>This is one of the characters stats</p>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+						<li><a href="#add" data-icon="plus">Add Character</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="about" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>About</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<ul data-role="listview" data-inset="true" data-filter="true">
+						<li data-role="list-divider">Browse your Characters By:</li>
+						<li>
+							<a href="#author">Author Info</a>
+						</li>
+						<li>
+							<a href="../bronze/index.html" data-ajax="false">Bronze App</a>
+						</li>
+						<li>
+							<a href="https://github.com/g07343/master/tree/master/week2/gold">Gold gh-pages</a>
+						</li>
+						<li>
+							<a href="https://github.com/g07343/master/tree/master/week2/bronze">Bronze gh-pages</a>
+						</li>
+						<li>
+							<a href="https://github.com/g07343/master/tree/gh-pages">GitHub Repository</a>
+						</li>
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info" class="ui-btn-active">About</a></li>
+						<li><a href="#add" data-icon="plus">Add Character</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="author" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Author Info</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>Author Name:</h3>
+					<p>Matthew Lewis</p>	
+				</div>
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>Author Age:</h3>
+					<p>25</p>	
+				</div>
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>Contact:</h3>
+					<p>MLewis0110@fullsail.edu</p>	
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info" class="ui-btn-active">About</a></li>
+						<li><a href="#add" data-icon="plus">Add Character</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="add" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Add a Member:</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+				<form action="" method="post" id="addForm">
+					<div data-role="fieldcontain">
+						<h2>Character Personal Info:</h2>
+					</div>
+					<div>
+						<h6>* fields are required</h6>
+						<!-- Name input -->
+						<label for="name">*Party Member Name:</label>
+						<input type="text" placeholder="Name your character!"name="name" id="name" class="required"/>
+						<h6 id='inputHint'>name can contain any combination of letters, numbers, or symbols</h6>
+					</div>
+					<div data-role="fieldcontain">
+						<!-- gender input -->
+						<fieldset data-role="controlgroup" id="Gender" name="Gender">
+							<label for="radio">*Gender:</label>
+								<input type="radio" value="male" name="radio" id="Male" class="required"/>
+								<label for="Male">Male</label>
+								<input type="radio" value="female" name="radio" id="Female"/>
+								<label for="Female">Female</label>
+						</fieldset>
+					</div>
+					<div data-role="fieldcontain">
+					<!-- age input -->
+						<label for="age">*Age (In years):</label>
+						<input type="text" name="age" placeholder="0-99" id="age" class="required number" />  
+						<h6 id='inputHint'>example: 40, whole numbers only</h6>
+				    </div>
+				    <div>
+				    <p>*Nationality:</p>
+				    <!-- Nationality Input -->
+				    <fieldset data-role="controlgroup" data-type="horizontal" style="display: inline">
+				    	<label for="nationality">*Nationality:</label>
+				            <select name="nationality" id="nationality" class="required" data-native-menu="false">
+				                <option data-placeholder="true" value>Where is your character from?</option>
+				                <option value="Dirkshire">Dirkshire</option>
+				                <option value="Black-Mountains">Black-Mountains</option>
+				                <option value="Jergain-Highlands">Jergain-Highlands</option>
+				                <option value="Oc'tyre-Desert">Oc'tyre-Desert</option>
+				            </select>
+				        </fieldset>
+				    </div>
+				    <div data-role="fieldcontain">
+					<h2>Character Stats:</h2>
+						<!-- Class Input -->
+						<p>*What class is your character?</p>
+						<fieldset data-role="controlgroup" data-type="horizontal" class="required" style="display: inline">
+				    	<label for="class">*Class:</label>
+				            <select name="class" id="class" data-native-menu="false" class="required">
+				                <option data-placeholder="true" value>Choose a class...</option>
+				                <optgroup label="Melee Classes">
+				                	<option value="Soldier">Soldier</option>
+				                	<option value="Rogue">Rogue</option>
+				                	<option value="Barbarian">Barbarian</option>
+				                </optgroup>
+				                <optgroup label="Magic Classes">
+				                	<option value="Wizard">Wizard</option>
+				                	<option value="Healer">Healer</option>
+				                	<option value="Mage">Mage</option>
+				                </optgroup>
+				            </select>
+				        </fieldset>
+					</div> 
+					<div data-role="fieldcontain">
+						<label for="level">Character starting level (0-10):</label>
+						<input type="range" name="level" id="level" value="5" min="0" max="10"/>
+						<h6 id='inputHint2'>starting level relates to how strong your character is</h6>
+					</div>
+					<div data-role="fieldcontain">
+						<label for="bio">Brief character bio or notes:</label>
+						<textarea name="bio" id="bio" placeholder="Want to write some backstory?  Maybe some notes?"></textarea>
+					</div>
+					<div data-role="fieldcontain">
+						
+						<input type="submit" value="Create Member!" data-theme="b" id="charSubmit" data-inline="true"/>
+						
+						<a id="cancel" href="#home" data-inline="true">Cancel</a>
+					</div>
+					<div id="hidden">
+						<input type="reset" value="Reset" data-theme="a" style="display: none" id="reset"/>
+					</div>
+					<a href="#errorspopup" id="errorslink" data-rel="dialog">Open Errors</a>
+				</form>
+            </div>
+			<div data-role="footer" data-position="fixed" data-id="static">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" id="homeLink" data-icon="home">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+						<li><a href="#add" data-icon="plus" class="ui-btn-active">Add Character</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="dialog" id="errorspopup">
+			<div data-role="header" data-position="fixed">
+				<h1>Missing Fields</h1>
+			</div>
+			<div data-role="content">
+				<ul>
+					<li>popup message content</li>
+				</ul>
+			</div>
+		</div>
+		<!--
+<div id="feature">
+			<p>
+				<h1 style="padding-top: 10px; margin: 0px">Create an RPG character!</h1>
+			</p>
+			<p>
+				<a id ="itemPage" href="additem.html"></a>
+			</p>
+		</div>
+		<div id="search">
+			<p>Already created some characters?
+			<input type="search" id="searchBox" value="Search!" />
+			<input type="submit" value="Go" /></p>
+		</div>
+		<div id="browse">
+			<p id="browseTitle"><h4>Browse your created characters:</h4></p>
+			<p>
+			<a id="browseName" href="additem.html"></a>
+			<a id="browseGender" href="additem.html"></a>
+			<a id="browseClass" href="additem.html"></a>
+			<a id="browseNationality" href="additem.html"></a>
+			<a id="browseLevel" href="additem.html"></a>
+			</p>
+		</div>
+-->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script src="js/libs/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- <script type="text/javascript" src="js/Sample-main.js"></script> -->
+	</body>
+</html>
+		
