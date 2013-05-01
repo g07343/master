@@ -19,16 +19,15 @@ Term: 1304
 		
 		<title>MIU Project 2</title>
 		<!-- <link href="css/styles.css" rel="stylesheet" type="text/css" /> -->
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />		
 		<link rel="stylesheet" href="css/styles.css" />
 		<!-- Include the modernizr javascript file as well! -->
-		<script src="js/libs/modernizr.custom.min.js"></script>
 	</head>
 	<!--Body which will contain our main app title as well as the call to action and link button-->
 	
 	<body>
 		<div data-role="page" id="home">
-			<div data-role="header" data-position="fixed" data-theme="a">
+			<div data-role="header" id="header" data-position="fixed" data-theme="a">
 				<h1>Gold App</h1>
 			</div>
 			<div data-role="content" data-theme="a">
@@ -40,24 +39,24 @@ Term: 1304
 				</div>
 			
 				<div>
-					<p><h5>Already created some characters?</h5><a href="#party" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a">View Party</a></p>
+					<p><h5>Already created some characters?</h5><a href="#party" id="viewButton" data-role="button" data-icon="arrow-r" data-iconpos="right">View Party</a></p>
 				</div>
 				<div id="browse">
 					<ul data-role="listview" data-inset="true" data-filter="true">
-						<li data-role="list-divider">Browse your Characters By:</li>
-						<li>
+						<li data-role="list-divider" id="browseTitle">Browse your Characters By:</li>
+						<li class="browseCat">
 							<a href="#charpage">Name</a>
 						</li>
-						<li>
+						<li class="browseCat">
 							<a href="#charpage">Gender</a>
 						</li>
-						<li>
+						<li class="browseCat">
 							<a href="#charpage">Role</a>
 						</li>
-						<li>
+						<li class="browseCat">
 							<a href="#charpage">Nationality</a>
 						</li>
-						<li>
+						<li class="browseCat">
 							<a href="#charpage">Level</a>
 						</li>
 					</ul>
@@ -67,9 +66,9 @@ Term: 1304
 				<div data-role="navbar">
 					<ul>
 						<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
-						<li><a href="#about" data-icon="info">About</a></li>
-						<li><a href="#add" data-icon="plus">Add Character</a></li>
+						<li><a href="#party"  class="footerInactive" data-icon="arrow-r">Party</a></li>
+						<li><a href="#about" class="footerInactive"data-icon="info">About</a></li>
+						<li><a href="#add" class="footerInactive"data-icon="plus">Add Character</a></li>
 					</ul>
 				</div>
 			</div>
@@ -102,10 +101,10 @@ Term: 1304
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive">Home</a></li>
 						<li><a href="#party" data-icon="arrow-r" class="ui-btn-active">Party</a></li>
-						<li><a href="#about" data-icon="info">About</a></li>
-						<li><a href="#add" data-icon="plus">Add Character</a></li>
+						<li><a href="#about" data-icon="info" class="footerInactive">About</a></li>
+						<li><a href="#add" data-icon="plus" class="footerInactive">Add Character</a></li>
 					</ul>
 				</div>
 			</div>
@@ -143,10 +142,10 @@ Term: 1304
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
-						<li><a href="#about" data-icon="info">About</a></li>
-						<li><a href="#add" data-icon="plus">Add Character</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive">Party</a></li>
+						<li><a href="#about" data-icon="info" class="footerInactive">About</a></li>
+						<li><a href="#add" data-icon="plus" class="footerInactive">Add Character</a></li>
 
 					</ul>
 				</div>
@@ -158,20 +157,20 @@ Term: 1304
 			</div>
 			<div data-role="content" data-theme="a">
 				<ul data-role="listview" data-inset="true" data-filter="true">
-						<li data-role="list-divider">Browse your Characters By:</li>
-						<li>
+						<li data-role="list-divider" id="browseTitle">All the other Stuff:</li>
+						<li class="browseCat">
 							<a href="#author">Author Info</a>
 						</li>
-						<li>
+						<li class="browseCat">
 							<a href="../bronze/index.html" data-ajax="false">Bronze App</a>
 						</li>
-						<li>
+						<li class="browseCat">
 							<a href="https://github.com/g07343/master/tree/master/week2/gold">Gold gh-pages</a>
 						</li>
-						<li>
+						<li class="browseCat">
 							<a href="https://github.com/g07343/master/tree/master/week2/bronze">Bronze gh-pages</a>
 						</li>
-						<li>
+						<li class="browseCat">
 							<a href="https://github.com/g07343/master/tree/gh-pages">GitHub Repository</a>
 						</li>
 				</ul>
@@ -179,10 +178,10 @@ Term: 1304
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive">Party</a></li>
 						<li><a href="#about" data-icon="info" class="ui-btn-active">About</a></li>
-						<li><a href="#add" data-icon="plus">Add Character</a></li>
+						<li><a href="#add" data-icon="plus" class="footerInactive">Add Character</a></li>
 					</ul>
 				</div>
 			</div>
@@ -208,10 +207,10 @@ Term: 1304
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive">Party</a></li>
 						<li><a href="#about" data-icon="info" class="ui-btn-active">About</a></li>
-						<li><a href="#add" data-icon="plus">Add Character</a></li>
+						<li><a href="#add" data-icon="plus" class="footerInactive">Add Character</a></li>
 					</ul>
 				</div>
 			</div>
@@ -307,9 +306,9 @@ Term: 1304
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" id="homeLink" data-icon="home">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
-						<li><a href="#about" data-icon="info">About</a></li>
+						<li><a href="#home" id="homeLink" data-icon="home" class="footerInactive">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive">Party</a></li>
+						<li><a href="#about" data-icon="info" class="footerInactive">About</a></li>
 						<li><a href="#add" data-icon="plus" class="ui-btn-active">Add Character</a></li>
 					</ul>
 				</div>

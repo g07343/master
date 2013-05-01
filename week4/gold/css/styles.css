@@ -21,6 +21,19 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 #hidden{display:none;}
 #inputHint{color: #A9A9A9; margin-top: 0px; size: 0.1em;}
 #inputHint2{color: #A9A9A9; size: 0.1em;}
+.browseCat{background: #384756; padding-top:2px;}
+#browseTitle{background: #F3AD1E}
+#header{background: #384756}
+#partyLink{background: #384756}
+ui-button{background: #384756}
+.footerInactive{background: #384756}
+.ui-btn-active{background: #F3AD1E}
+#viewButton{background: #384756}
+.ui-input-search{background: #E2E2E2;}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
 
 #browseName{background-image:url(../img/categoryName.png);
 	padding: 20px;
