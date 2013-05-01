@@ -43,7 +43,7 @@ Term: 1304
 				</div>
 				<div id="browse">
 					<ul data-role="listview" data-inset="true" data-filter="true">
-						<li data-role="list-divider" id="browseTitle">Browse your Characters By:</li>
+						<li data-role="list-divider" class="browseTitle">Browse your Characters By:</li>
 						<li class="browseCat">
 							<a href="#charpage">Name</a>
 						</li>
@@ -74,27 +74,27 @@ Term: 1304
 			</div>
 		</div>
 		<div data-role="page" id="party" data-add-back-btn="true">
-			<div data-role="header" data-position="fixed" data-theme="a">
+			<div data-role="header" id="header" data-position="fixed" data-theme="a">
 				<h1>Party Members (All):</h1>
 			</div>
 			<div data-role="content" data-theme="a">
 				<ul data-role="listview" data-inset="true" data-filter="true" data-theme="c">
-					<li data-role="list-divider">Your current Party:</li>
-					<li><img src="img/Black-Mountains.png" />
+					<li data-role="list-divider" class="browseTitle">Your current Party:</li>
+					<li class="listItem"><img src="img/Black-Mountains.png" />
 					Character 1
-					<p>Level: NUMBER, CLASS</p>
+					<p class="liSpace">Level: NUMBER, CLASS</p>
 					</li>
-					<li><img src="img/Jergain-Highlands.png" />
+					<li class="listItem"><img src="img/Jergain-Highlands.png" />
 					Character 2
-					<p>Level: NUMBER, CLASS</p>
+					<p class="liSpace">Level: NUMBER, CLASS</p>
 					</li>
-					<li><img src="img/Oc'tyre-Desert.png" />
+					<li class="listItem"><img src="img/Oc'tyre-Desert.png" />
 					Character 3
-					<p>Level: NUMBER, CLASS</p>
+					<p class="liSpace">Level: NUMBER, CLASS</p>
 					</li>
-					<li><img src="img/Durkshire.png" />
+					<li class="listItem"><img src="img/Durkshire.png" />
 					Character 4
-					<p>Level: NUMBER, CLASS</p>
+					<p class="liSpace">Level: NUMBER, CLASS</p>
 					</li>
 				</ul>
             </div>
@@ -110,11 +110,11 @@ Term: 1304
 			</div>
 		</div>
 		<div data-role="page" id="charpage" data-add-back-btn="true">
-			<div data-role="header" data-position="fixed" data-theme="a">
+			<div data-role="header" id="header" data-position="fixed" data-theme="a">
 				<h1>Party Member Details:</h1>
 			</div>
 			<div data-role="content" data-theme="a">
-				<div data-role="collapsible" data-collapsed="true">
+				<div data-role="collapsible" class="dropdown" data-collapsed="true">
 					<h3>Dynamically loaded character</h3>
 					<p>This is one of the characters stats</p>
 					<p>This is one of the characters stats</p>
@@ -122,7 +122,7 @@ Term: 1304
 					<p>This is one of the characters stats</p>
 					<p>This is one of the characters stats</p>
 				</div>
-				<div data-role="collapsible" data-collapsed="true">
+				<div data-role="collapsible" class="dropdown" data-collapsed="true">
 					<h3>Dynamically loaded character</h3>
 					<p>This is one of the characters stats</p>
 					<p>This is one of the characters stats</p>
@@ -130,7 +130,7 @@ Term: 1304
 					<p>This is one of the characters stats</p>
 					<p>This is one of the characters stats</p>
 				</div>
-				<div data-role="collapsible" data-collapsed="true">
+				<div data-role="collapsible" class="dropdown" data-collapsed="true">
 					<h3>Dynamically loaded character</h3>
 					<p>This is one of the characters stats</p>
 					<p>This is one of the characters stats</p>
@@ -152,12 +152,12 @@ Term: 1304
 			</div>
 		</div>
 		<div data-role="page" id="about" data-add-back-btn="true">
-			<div data-role="header" data-position="fixed" data-theme="a">
+			<div data-role="header" id="header" data-position="fixed" data-theme="a">
 				<h1>About</h1>
 			</div>
 			<div data-role="content" data-theme="a">
 				<ul data-role="listview" data-inset="true" data-filter="true">
-						<li data-role="list-divider" id="browseTitle">All the other Stuff:</li>
+						<li data-role="list-divider" class="browseTitle">All the other Stuff:</li>
 						<li class="browseCat">
 							<a href="#author">Author Info</a>
 						</li>
@@ -187,7 +187,7 @@ Term: 1304
 			</div>
 		</div>
 		<div data-role="page" id="author" data-add-back-btn="true">
-			<div data-role="header" data-position="fixed" data-theme="a">
+			<div data-role="header" id="header" data-position="fixed" data-theme="a">
 				<h1>Author Info</h1>
 			</div>
 			<div data-role="content" data-theme="a">
@@ -216,7 +216,7 @@ Term: 1304
 			</div>
 		</div>
 		<div data-role="page" id="add" data-add-back-btn="true">
-			<div data-role="header" data-position="fixed" data-theme="a">
+			<div data-role="header" id="header" data-position="fixed" data-theme="a">
 				<h1>Add a Member:</h1>
 			</div>
 			<div data-role="content" data-theme="a">
@@ -315,7 +315,7 @@ Term: 1304
 			</div>
 		</div>
 		<div data-role="dialog" id="errorspopup">
-			<div data-role="header" data-position="fixed">
+			<div data-role="header" id="header" data-position="fixed">
 				<h1>Missing Fields</h1>
 			</div>
 			<div data-role="content">
