@@ -25,7 +25,7 @@ Term: 1304
 	</head>
 	<!--Body which will contain our main app title as well as the call to action and link button-->
 	
-	<body>
+	<body id="body">
 		<div data-role="page" id="home">
 			<div data-role="header" id="header" data-position="fixed" data-theme="a">
 				<h1>Gold App</h1>
@@ -231,10 +231,10 @@ Term: 1304
 						<input type="text" placeholder="Name your character!"name="name" id="name" class="required"/>
 						<h6 id='inputHint'>name can contain any combination of letters, numbers, or symbols</h6>
 					</div>
-					<div data-role="fieldcontain">
+					<div data-role="fieldcontain" class="inputDiv">
 						<!-- gender input -->
 						<fieldset data-role="controlgroup" id="Gender" name="Gender">
-							<label for="radio">*Gender:</label>
+							<label for="radio" id="genLabel">*Gender:</label>
 								<input type="radio" value="male" name="radio" id="Male" class="required"/>
 								<label for="Male">Male</label>
 								<input type="radio" value="female" name="radio" id="Female"/>
@@ -318,7 +318,7 @@ Term: 1304
 			<div data-role="header" id="header" data-position="fixed">
 				<h1>Missing Fields</h1>
 			</div>
-			<div data-role="content">
+			<div data-role="content" id="errorBody">
 				<ul>
 					<li>popup message content</li>
 				</ul>

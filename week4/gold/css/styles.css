@@ -27,7 +27,7 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 #partyLink{background: #384756}
 
 
-.ui-btn-active{background: #F3AD1E; color: black;}
+.ui-btn-active{background: #F3AD1E;}
 #viewButton{background: #384756}
 .ui-input-search{background: #E2E2E2;}
 .ui-btn-left{background: #F3AD1E;}
@@ -38,6 +38,23 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 .listItem{background: #384756; padding-top:2px; color: white; font-weight:100;}
 .liSpace{padding-top: 5px;}
 ui-btn-up-a{background: #384756;}
+.ui-content{background-image:url(../img/binding_dark.png);}
+#errorBody{background: white;}
+.ui-radio-on{background: #F3AD1E;}
+.ui-radio-off{background: #384756;}
+.ui-controlgroup{background: none;}
+#nationality-button{background: #384756;}
+#class-button{background: #384756;}
+#level{color: #F3AD1E;}
+.ui-slider-track{background: #384756;}
+.ui-slider-handle{background: #F3AD1E;}
+#bio{border-color: #384756;}
+#name{border-color: #384756;}
+#age{border-color: #384756;}
+.ui-input-text{border-color: #384756;}
+.ui-input-text{border-width: 2px;}
+#charpage{background-image:url(../img/binding_dark.png);}
+
 
 :-moz-placeholder { /* Firefox 18- */
    color: white;  
