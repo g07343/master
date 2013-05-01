@@ -35,8 +35,9 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 .browseCat{background: #384756; padding-top:2px;}
 .dropdown{background: #F3AD1E; color: black;}
 .ui-collapsible-heading-toggle{background: #384756;}
-.listItem{background: #384756; padding-top:2px; color: white;}
+.listItem{background: #384756; padding-top:2px; color: white; font-weight:100;}
 .liSpace{padding-top: 5px;}
+ui-btn-up-a{background: #384756;}
 
 :-moz-placeholder { /* Firefox 18- */
    color: white;  
