@@ -131,6 +131,16 @@ ui-btn-up-a{background: #384756;}
 	height:50px;
 	width:150px;
 	}
+	
+#logo {
+	margin-left: 0px;
+	margin-bottom: -10px;
+	background-repeat:no-repeat;
+	background-image:url(../img/logo.png);
+	display:block;
+	height:39px;
+	width: 67px;
+	}	
 
 /* All code below formats the additem.html page! */
 fieldset{background-opacity:0.1; } 
