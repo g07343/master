@@ -32,13 +32,14 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 #viewButton{background: #043b1a}
 .ui-input-search{background: #E2E2E2;}
 
-.footerInactive{background: #043b1a}
+
 .browseCat{background: #043b1a; padding-top:2px;}
 .dropdown{background: rgba(243,172,29,0.51); color: black;}
 .ui-collapsible-heading-toggle{background: #043b1a;}
 .listItem{background: #043b1a; padding-top:2px; color: white; font-weight:100;}
 .liSpace{padding-top: 5px;}
 .ui-btn-up-a{background: #043b1a;}
+
 .ui-content{background-image:url(../img/grey_wash_wall.png);}
 #errorBody{background: white;}
 .ui-radio-on{background: #e9940b;}
@@ -61,6 +62,7 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 .ui-bar-a{background: #e9940b;}
 .header{background: #043b1a}
 #newsTitle{background: #e9940b}
+.footerInactive{background: #043b1a;}
 
 :-moz-placeholder { /* Firefox 18- */
    color: white;  
@@ -139,7 +141,7 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 	}
 	
 #logo {
-	margin-left: 0px;
+	margin-left: 250px;
 	margin-bottom: -40px;
 	margin-top: -10px;
 	background-repeat:no-repeat;

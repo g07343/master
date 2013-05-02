@@ -29,6 +29,7 @@ Term: 1304
 	<body id="main">
 		<div data-role="page" id="home" class="appPage">
 			<div data-role="header" class="header" data-position="fixed" data-theme="a">
+				<p><a id ="logo"  href="#home"></a></p>
 				<h1>Bronze App</h1>
 			</div>
 			<div data-role="content" data-theme="a">
@@ -77,15 +78,16 @@ Term: 1304
 				<div data-role="navbar">
 					<ul>
 						<li><a href="#home" data-icon="home" class="ui-btn-active ui-state-persist">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
-						<li><a href="#about" data-icon="info">About</a></li>
-						<li><a href="#news" data-icon="alert">Newest</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive ui-state-persist">Party</a></li>
+						<li><a href="#about" data-icon="info" class="footerInactive ui-state-persist">About</a></li>
+						<li><a href="#news" data-icon="alert" class="footerInactive ui-state-persist">Newest</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div data-role="page" id="party" class="appPage" data-add-back-btn="true" data-filter="true">
 			<div data-role="header" class="header" data-position="fixed" data-theme="a">
+				<p><a id ="logo"  href="#home"></a></p>
 				<h1>Party (All):</h1>
 			</div>
 			<div data-role="content" id="content" data-theme="a" data-filter="true">
@@ -101,16 +103,17 @@ Term: 1304
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive ui-state-persist">Home</a></li>
 						<li><a href="#party" data-icon="arrow-r" class="ui-btn-active ui-state-persist">Party</a></li>
-						<li><a href="#about" data-icon="info">About</a></li>
-						<li><a href="#news" data-icon="alert">Newest</a></li>
+						<li><a href="#about" data-icon="info" class="footerInactive ui-state-persist">About</a></li>
+						<li><a href="#news" data-icon="alert" class="footerInactive ui-state-persist">Newest</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div data-role="page" class="appPage" id="charpage" data-add-back-btn="true">
 			<div data-role="header" class="header" data-position="fixed" data-theme="a">
+				<p><a id ="logo"  href="#home"></a></p>
 				<h1>Party Member Details:</h1>
 			</div>
 			<div data-role="content" data-theme="a" data-filter="true">
@@ -126,81 +129,83 @@ Term: 1304
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
-						<li><a href="#about" data-icon="info">About</a></li>
-						<li><a href="#news" data-icon="alert">Newest</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive ui-state-persist">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive ui-state-persist">Party</a></li>
+						<li><a href="#about" data-icon="info" class="footerInactive ui-state-persist">About</a></li>
+						<li><a href="#news" data-icon="alert" class="footerInactive ui-state-persist">Newest</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div data-role="page" class="appPage" id="about" data-add-back-btn="true">
 			<div data-role="header" class="header" data-position="fixed" data-theme="a">
+				<p><a id ="logo"  href="#home"></a></p>
 				<h1>Party Member Details:</h1>
 			</div>
 			<div data-role="content" data-theme="a">
 				<ul data-role="listview" data-inset="true" data-filter="true">
 						<li data-role="list-divider" id="newsTitle">About Info:</li>
-						<li>
+						<li class="listItem">
 							<a href="#author">Author Info</a>
 						</li>
-						<li>
+						<li class="listItem">
 							<a href="../gold/index.html" data-ajax="false">Gold App</a>
 						</li>
-						<li>
+						<li class="listItem">
 							<a href="https://github.com/g07343/master/tree/master/week2/gold">Gold gh-pages</a>
 						</li>
-						<li>
+						<li class="listItem">
 							<a href="https://github.com/g07343/master/tree/master/week2/bronze">Bronze gh-pages</a>
 						</li>
-						<li>
+						<li class="listItem">
 							<a href="https://github.com/g07343/master/tree/gh-pages">GitHub Repository</a>
 						</li>
 				</ul>
+				<p>Background courtesy of <a href="http://subtlepatterns.com">http://subtlepatterns.com</a></p>
 			</div>
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive ui-state-persist">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive ui-state-persist">Party</a></li>
 						<li><a href="#about" data-icon="info" class="ui-btn-active ui-state-persist">About</a></li>
-						<li><a href="#news" data-icon="alert">Newest</a></li>
+						<li><a href="#news" data-icon="alert" class="footerInactive ui-state-persist">Newest</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div data-role="page" class="appPage" id="news" data-add-back-btn="true">
 			<div data-role="header" class="header" data-position="fixed" data-theme="a">
+				<p><a id ="logo"  href="#home"></a></p>
 				<h1>News Stream</h1>
 			</div>
 			<div data-role="content" data-theme="a">
 				<ul data-role="listview" data-inset="true" data-filter="true">
 						<li data-role="list-divider" id="newsTitle">Latest Characters created:</li>
-						<li>
+						<li class="listItem">
 							<a href="#charpage">Character 1</a>
 							<p class="subFont">created 5 minutes ago</p>
 						</li>
-						<li>
+						<li class="listItem">
 							<a href="#charpage">Character 2</a>
 							<p class="subFont">created 8 minutes ago</p>
 						</li>
-						<li>
+						<li class="listItem">
 							<a href="#charpage">Character 3</a>
 							<p class="subFont">created 14 minutes ago</p>
 						</li>
-						<li>
+						<li class="listItem">
 							<a href="#charpage">Character 4</a>
 							<p class="subFont">created 2 hours ago</p>
-						</li>
-						
+						</li class="listItem">	
 				</ul>
 			</div>
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
-						<li><a href="#about" data-icon="info">About</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive ui-state-persist">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive ui-state-persist">Party</a></li>
+						<li><a href="#about" data-icon="info" class="footerInactive ui-state-persist">About</a></li>
 						<li><a href="#news" data-icon="alert" class="ui-btn-active ui-state-persist">Newest</a></li>
 					</ul>
 				</div>
@@ -208,6 +213,7 @@ Term: 1304
 		</div>
 		<div data-role="page" class="appPage" id="author" data-add-back-btn="true">
 			<div data-role="header" class="header" data-position="fixed" data-theme="a">
+				<p><a id ="logo"  href="#home"></a></p>
 				<h1>Author Info</h1>
 			</div>
 			<div data-role="content" data-theme="a">
@@ -227,10 +233,10 @@ Term: 1304
 			<div data-role="footer" data-position="fixed" data-id="static">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#party" data-icon="arrow-r">Party</a></li>
+						<li><a href="#home" data-icon="home" class="footerInactive ui-state-persist">Home</a></li>
+						<li><a href="#party" data-icon="arrow-r" class="footerInactive ui-state-persist">Party</a></li>
 						<li><a href="#about" data-icon="info" class="ui-btn-active ui-state-persist">About</a></li>
-						<li><a href="#news" data-icon="alert">Newest</a></li>
+						<li><a href="#news" data-icon="alert" class="footerInactive ui-state-persist">Newest</a></li>
 					</ul>
 				</div>
 			</div>
