@@ -21,6 +21,7 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 #hidden{display:none;}
 #inputHint{color: #A9A9A9; margin-top: 0px; size: 0.1em;}
 #inputHint2{color: #A9A9A9; size: 0.1em;}
+.title{margin-top: -100px;}
 
 .browseTitle{background: #F3AD1E}
 #header{background: #384756}
@@ -30,7 +31,7 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 .ui-btn-active{background: #F3AD1E;}
 #viewButton{background: #384756}
 .ui-input-search{background: #E2E2E2;}
-.ui-btn-left{background: #F3AD1E;}
+.ui-btn-left{background: #F3AD1E; position: absolute; left: 0px; top: 90px;}
 .footerInactive{background: #384756}
 .browseCat{background: #384756; padding-top:2px;}
 .dropdown{background: #F3AD1E; color: black;}
@@ -134,7 +135,7 @@ ui-btn-up-a{background: #384756;}
 	
 #logo {
 	margin-left: 0px;
-	margin-bottom: -10px;
+	margin-bottom: -40px;
 	background-repeat:no-repeat;
 	background-image:url(../img/logo.png);
 	display:block;
