@@ -1,6 +1,6 @@
 /*
 Matthew Lewis
-MIU Assignment 1
+MIU Assignment 4
 Term: 1303
 */
 
@@ -8,15 +8,63 @@ Term: 1303
 #index{text-align: center; background: #3B3B3B; color:#F9F9F9; margin-left: 0px; margin-right: 0px;}
 #title{text-align:center; margin-top: -8px; padding-bottom: 5px; font-size: 1.2em; background-color: #7C7C7C; font-weight:bold; color: white;}
 h1{padding: 20px,0,-10,0; text-align: left;}
-#feature{background-image:url(../img/feature-bg.png); margin-top: -25px; margin-bottom: -15px; background-repeat:no-repeat; background-size:cover;}
-h3{font-weight: bold; font-size: 1.25em; color: #B2B2B2}
-#search{margin-top: -15px;}
+#feature{background-image:url(../img/feature-bg.png); margin-top: -25px; margin-bottom: -15px; background-repeat:no-repeat; background-size: 425px;}
+h3{font-weight: bold; font-size: 1.25em;}
+#search{margin-top: 0px;}
 h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 #searchBox{margin-bottom:-20px;}
-#party .ui-grid-b div{text-align:center; background-color:#343434;}
-#content{background-color:#343434;}
+#party div h3{}
 #titleText{color:#7073D6;}
-#hint{color: #000000; margin-top:0px;}
+#cancel{margin-left: 60px;}
+label.error{display:block; margin:10px 0; color:#cc0000;}
+#errorslink{display:none;}
+#hidden{display:none;}
+#inputHint{color: #A9A9A9; margin-top: 0px; size: 0.1em;}
+#inputHint2{color: #A9A9A9; size: 0.1em;}
+.title{margin-top: -100px;}
+
+.browseTitle{background: #e9940b}
+
+#partyLink{background: #043b1a}
+
+
+
+#viewButton{background: #043b1a}
+.ui-input-search{background: #E2E2E2;}
+
+.footerInactive{background: #043b1a}
+.browseCat{background: #043b1a; padding-top:2px;}
+.dropdown{background: rgba(243,172,29,0.51); color: black;}
+.ui-collapsible-heading-toggle{background: #043b1a;}
+.listItem{background: #043b1a; padding-top:2px; color: white; font-weight:100;}
+.liSpace{padding-top: 5px;}
+.ui-btn-up-a{background: #043b1a;}
+.ui-content{background-image:url(../img/grey_wash_wall.png);}
+#errorBody{background: white;}
+.ui-radio-on{background: #e9940b;}
+.ui-radio-off{background: #043b1a;}
+.ui-controlgroup{background: none;}
+#nationality-button{background: #043b1a;}
+#class-button{background: #043b1a;}
+#level{color: #e9940b;}
+.ui-slider-track{background: #043b1a;}
+.ui-slider-handle{background: #f09606;}
+#bio{border-color: #043b1a;}
+#name{border-color: #043b1a;}
+#age{border-color: #043b1a;}
+.ui-input-text{border-color: #043b1a;}
+.ui-input-text{border-width: 2px;}
+.appPage{background-image:url(../img/grey_wash_wall.png);}
+.ui-btn-active{background: #e9940b;}
+.ui-btn-left{background: #e9940b; position: absolute; left: 0px; top: 90px;}
+.subFont{margin-bottom: 0px;}
+.ui-bar-a{background: #e9940b;}
+.header{background: #043b1a}
+#newsTitle{background: #e9940b}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
 
 #browseName{background-image:url(../img/categoryName.png);
 	padding: 20px;
@@ -80,7 +128,7 @@ h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 }
 
 #itemPage {
-	margin-left: 130px;
+	margin-left: 120px;
 	margin-bottom: -10px;
 	padding-bottom: 10px;
 	background-repeat:no-repeat;
@@ -89,14 +137,26 @@ h4{background-color: #7C7C7C; margin-top:5px; margin-bottom: 0px;color: #D1E2FE}
 	height:50px;
 	width:150px;
 	}
+	
+#logo {
+	margin-left: 0px;
+	margin-bottom: -40px;
+	margin-top: -10px;
+	background-repeat:no-repeat;
+	background-image:url(../img/logo.png);
+	display:block;
+	height:39px;
+	width: 67px;
+	}	
 
 /* All code below formats the additem.html page! */
-h2{line-height: 40px; font-size: 2em; text-decoration: none; position: relative; top: -10px;left: 10px;color: #EA1B1B}
+fieldset{background-opacity:0.1; } 
+h2{line-height: 40px; font-size: 2em; text-decoration: none; position: relative; margin-bottom: -10px; top: -10px;left: 10px;color: #EA1B1B}
 body{background-color: #3B3B3B}
 fieldset{background-color: #747171}
 #addHeader{font-color: #EA1B1B}
 a{color:#9FD5FF}
-li{color: #FFFFFF; padding: 5px 0 5px 0}
+li{color: black; padding: 5px 0 5px 0}
 fieldset{margin: 10px 0 0 0}
 .inputTitles{color: #9FD5FF; font-size: 1.4em; margin: 5px 0 0 0}
 .errors{font-weight:bold}
