@@ -34,7 +34,7 @@ label.error{display:block; margin:10px 0; color:#cc0000;}
 .ui-btn-left{background: #F3AD1E; position: absolute; left: 0px; top: 90px;}
 .footerInactive{background: #384756}
 .browseCat{background: #384756; padding-top:2px;}
-.dropdown{background: #F3AD1E; color: black;}
+.dropdown{background: rgba(243,172,29,0.51); color: black;}
 .ui-collapsible-heading-toggle{background: #384756;}
 .listItem{background: #384756; padding-top:2px; color: white; font-weight:100;}
 .liSpace{padding-top: 5px;}
@@ -54,7 +54,7 @@ ui-btn-up-a{background: #384756;}
 #age{border-color: #384756;}
 .ui-input-text{border-color: #384756;}
 .ui-input-text{border-width: 2px;}
-#charpage{background-image:url(../img/binding_dark.png);}
+.appPage{background-image:url(../img/binding_dark.png);}
 
 
 :-moz-placeholder { /* Firefox 18- */
@@ -136,6 +136,7 @@ ui-btn-up-a{background: #384756;}
 #logo {
 	margin-left: 0px;
 	margin-bottom: -40px;
+	margin-top: -10px;
 	background-repeat:no-repeat;
 	background-image:url(../img/logo.png);
 	display:block;
